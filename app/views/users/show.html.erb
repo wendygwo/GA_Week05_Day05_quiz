@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @user.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @user.last_name %>
+</p>
+
+<p>
+  <strong>Favorite food:</strong>
+  <%= @user.favorite_food %>
+</p>
+
+<p>
+  <strong>Favorite animal:</strong>
+  <%= @user.favorite_animal %>
+</p>
+
+<p>
+  <strong>Favorite city:</strong>
+  <%= @user.favorite_city %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
